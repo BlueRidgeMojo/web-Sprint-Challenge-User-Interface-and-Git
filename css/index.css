@@ -177,3 +177,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* --------- About Page Styling --------- */
+
+.mainBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+
+.aboutP{
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+}
+
+.abouts{
+    width: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.abouts h2{
+    padding-top: 2%;
+}
+
+.abouts button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    margin: 10px 0;
+}
